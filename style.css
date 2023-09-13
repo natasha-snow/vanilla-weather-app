@@ -1,0 +1,88 @@
+body {
+  background-color: #ecfffb;
+  font-family: "Playfair Display", serif;
+  display: block;
+  margin: 130px auto;
+  color: black;
+}
+h1 {
+  font-weight: 500;
+  padding: 15px 30px;
+  line-height: 28px;
+  margin-bottom: 0;
+  font-size: 50px;
+  float: left;
+}
+
+li {
+  list-style: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.9;
+  padding: 20px;
+}
+
+.footer {
+  font-size: 25px;
+  position: relative;
+  top: 20px;
+}
+
+.space {
+  border: 1px solid #ecfffb;
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px;
+  border-radius: 10px;
+  background-image: url("https://www.thoughtco.com/thmb/WeSKY6c-0qz9rNA5HaV7HC9VHVU=/2124x1414/filters:fill(auto,1)/GettyImages-482252-001-570a81d93df78c7d9edc0d78.jpg");
+}
+
+.search {
+  position: absolute;
+  top: 150px;
+  right: 270px;
+}
+
+.weather-temp .degrees {
+  font-weight: 200px;
+  position: relative;
+  font-size: 45px;
+  top: -34px;
+  left: -310px;
+}
+
+.weather-temp img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+  position: relative;
+  top: 40px;
+  left: -380px;
+}
+
+.weather-temp strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.dot {
+  border-top: 1px dashed black;
+  width: 110%;
+  position: relative;
+  left: -32px;
+  opacity: 0.6;
+}
