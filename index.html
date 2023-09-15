@@ -45,26 +45,24 @@
           </form>
           <div class="clearfix">
             <h1 id="city"></h1>
-            <ul class="float-left">
-              <li><span id="date"></span></li>
-              <li id="description"></li>
-            </ul>
           </div>
           <div class="row">
+            <div class="col-6">
+              <ul class="float-left">
+                <li><span id="date"></span></li>
+                <li id="description"></li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
+              </ul>
+            </div>
             <div class="col-6 weather-temp">
-              <div class="clearfix">
+              <div class="d-flex align-items-center">
                 <img src="" alt="Clear" id="icon" class="float-left" />
                 <div class="float-left weather-app">
                   <strong id="temperature" class="degrees"></strong
                   ><span class="degrees"> °C</span>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <ul class="second">
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> km/h</li>
-              </ul>
             </div>
           </div>
           <hr class="dot" />
