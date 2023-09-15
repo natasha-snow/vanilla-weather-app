@@ -11,9 +11,7 @@ h1 {
   line-height: 28px;
   margin-bottom: 0;
   font-size: 50px;
-  float: left;
 }
-
 li {
   list-style: none;
   color: black;
@@ -59,8 +57,6 @@ footer {
   font-weight: 200px;
   position: relative;
   font-size: 45px;
-  top: -34px;
-  left: -310px;
 }
 
 .weather-temp img {
@@ -68,8 +64,6 @@ footer {
   height: 64px;
   width: 64px;
   position: relative;
-  top: 40px;
-  left: -380px;
 }
 
 .weather-temp strong {
