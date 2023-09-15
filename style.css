@@ -54,15 +54,15 @@ footer {
 }
 
 .weather-temp .degrees {
-  font-weight: 200px;
+  font-weight: 400px;
   position: relative;
   font-size: 55px;
 }
 
 .weather-temp img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 70px;
+  width: 70px;
   position: relative;
 }
 
